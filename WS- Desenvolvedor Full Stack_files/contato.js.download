@@ -1,0 +1,50 @@
+
+function limpar(){
+  window.confirm('Tem certeza que deseja, limpar os campos?')
+}
+
+function validacao() {
+    if (document.form.nome.value=="") {
+        alert('Por favor preencha o campo nome.');
+        document.form.nome.focus();
+        return false;
+    }
+    
+        if (document.form.sobrenome.value=="") {
+            alert('Por favor preencha o campo sobrenome.');
+            document.form.sobrenome.focus();
+            return false;
+        }
+      
+    
+
+if (document.form.email.value=="" || document.form.email.value.indexOf('@')==-1 || document.form.email.value.indexOf('.')==-1 ) {
+    alert("Por favor, digite um endereço de e-mail válido.");
+    document.form.email.focus();
+        return false;
+}
+}
+
+$(document).ready(function() {
+    $('#Carousel').carousel({
+        interval: 5000
+    })
+});
+
+
+
+var myIndex = 0;
+carousel();
+
+function carousel() {
+  var i;
+  var x = document.getElementsByClassName("mySlides");
+  for (i = 0; i < x.length; i++) {
+    x[i].style.display = "none";  
+  }
+  myIndex++;
+  if (myIndex > x.length) {myIndex = 1}    
+  x[myIndex-1].style.display = "block";  
+  setTimeout(carousel, 2000); // Change image every 2 seconds
+}
+

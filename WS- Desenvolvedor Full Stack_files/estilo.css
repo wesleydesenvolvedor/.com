@@ -1,0 +1,204 @@
+
+
+
+    body {
+    z-index: 400px;
+    position: 100%;
+    width: 100%;
+    background: darkcyan;
+    font: normal 18pt arial ;
+    
+    
+
+    }
+    
+  
+    
+    .container img {
+        max-width:200px;
+       margin-left: -15px;
+       margin-top: 20px;
+       background:white;
+     
+    
+       
+    }
+    
+   
+    
+    .field{
+        width: 100%;
+        margin: 15px 0;
+    }
+    .field label, 
+    .field span{
+        padding-left: 10px;
+        font-size: 1.1em;
+        display: block;
+        width: 100%;
+    }
+    .radiobox label{
+        width: auto;
+        display: inline-block;
+    }
+   
+    textarea{
+        width: 100%;
+        padding-left: 10px;
+        height: 35x;
+        line-height: 35px;
+       
+        border: 1px solid #ccc;
+        outline: none;
+    
+    }
+    textarea{
+        line-height: 20px;
+        padding: 10px;
+        height: 90px;
+       
+    }
+    
+.footer {
+  text-align: center;
+  margin-left: 100px;
+  margin-top: -10px;
+
+    
+   
+}
+
+.container {
+    width:100px;
+  }
+  
+  .container video {
+      height:250;
+    width: 400px;
+    margin-left: 600px;
+     margin-top: -800px;
+  }
+
+  h6{
+margin-left: 530px;
+
+}
+
+.div-carousel{
+
+
+text-align: center;
+
+}
+
+
+label{
+    color:black;
+}
+
+h3{
+    color: black;
+    text-align: center;
+}
+
+footer{
+    text-align: center;
+    color: red;
+}
+h4{
+    text-align: center;
+    margin-top: 20px;
+font: outline;    
+}
+
+.carousel {
+    margin-bottom: 20px;
+    padding: 0 40px 30px 40px;
+}
+/* The controlsy */
+.carousel-control {
+   
+    height: 1200px;
+	width: 40px;
+   
+    margin-top: 90px;
+}
+.carousel-control.right {
+	right: -12px;
+}
+/* The indicators */
+.carousel-indicators {
+	right: 100%;
+	top: auto;
+	bottom: 50px;
+	
+}
+/* The colour of the indicators */
+
+.mySlides{
+    margin-left: 600px;
+}
+
+ /* Make the image fully responsive */
+ .carousel-inner img {
+    width: 100%;
+  
+}
+
+ 
+  .card .card_image {
+    width: inherit;
+    height: inherit;
+    border-radius: 70px;
+  }
+  
+ 
+  
+  .card .card_title {
+    text-align: center;
+    border-radius: 0px 0px 40px 40px;
+    font-family: sans-serif;
+    font-weight: bold;
+    font-size: 30px;
+    margin-top: -80px;
+    height: 40px;
+  }
+  
+  .card:hover {
+    transform: scale(0.9, 0.9);
+    box-shadow: 5px 5px 30px 15px rgba(0,0,0,0.25), 
+      -5px -5px 30px 15px rgba(0,0,0,0.22);
+  }
+  
+  .title-white {
+    color: white;
+  }
+  
+  .title-black {
+    color: black;
+  }
+  
+  @media all and (max-width: 500px) {
+    .card-list {
+      /* On small screens, we are no longer using row direction but column */
+      flex-direction: column;
+    }
+  }
+  
+  
+  /*
+  .card {
+    margin: 30px auto;
+    width: 300px;
+    height: 300px;
+    border-radius: 40px;
+    background-image: url('https://i.redd.it/b3esnz5ra34y.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-repeat: no-repeat;
+  box-shadow: 5px 5px 30px 7px rgba(0,0,0,0.25), -5px -5px 30px 7px rgba(0,0,0,0.22);
+    transition: 0.4s;
+  }
+  */
+  
